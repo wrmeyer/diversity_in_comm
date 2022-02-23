@@ -1,4 +1,9 @@
 library(tidyverse)
 
-df <- read.csv("C:/Users/wilmd/OneDrive/Desktop/python_env/env/History of Diversity/Formatted_data.csv", encoding="UTF-8")
+df <- read.csv("/Data_by_year.csv", encoding="UTF-8")
 view(df)
+
+df %>%
+  ggplot(., aes(Year, pctHispanic)) + 
+  geom_point() + 
+  geom_smooth(method=lm)
