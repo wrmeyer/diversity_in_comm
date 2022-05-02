@@ -1,0 +1,40 @@
+======================
+Wil-Cite Instructions:
+======================
+
+1) Before opening the program:
+    make sure the following files are in the same folder:
+        -database.csv OR complete.csv and to_code.csv
+        -GUI.exe
+    these files will automatically change when using the program.
+
+2) Starting the program:
+    -Run the program labeled "gui.exe."
+    -Click the button labeled "initialize" in the top right corner of the program
+
+
+3) Using the program
+
+    a) Entry Boxes
+        You will see two major sections of the program: the buttons and boxes on top and the browser below. On the top section of the 
+        program are 3 entry boxes labeled "Name," "Institution," and "Paper Title." These boxes are automatically populated with the author's 
+        name, affiliated institution at the time of publication, and the title of the paper. These three boxes can be changed to remove
+        inaccuracies or abbreviations. Whatever is entered into these boxes will appear in the final database as well as change the search
+        terms in the browser automation.
+
+    b) Automating the browser
+        On the left side of the program are two column labeled "Search Method" and "Search Terms." Each of the options allows the user to
+        change which search terms will be used in each search. Once the program is initialized and the desired search terms are selected,
+        click "Search" to pull up the desired search in the browser. ##HOPEFULLY A NAV BAR WILL BE ADDED SOON##
+    
+    c) Coding
+        Using the results of the search, the user should attempt to determing a given author's race/ethnicity and gender and select one of 
+        the given options from each of the "Gender Coding" and "Race/Ethnicity" columns on the bottom right section of the upper portion of the
+        program. Given the nature of the task, "Cannot Determine" is an available option for both gender and race/ethnicity. After making the 
+        appropriate decision for both gender and race/ethnicity, the user should click "Submit" to finalize the coding for that author. An
+        "undo" button is available in the top right portion of the program to undo the last coding.
+
+    d) Finalizing and saving work
+        At the end of the coding session, click "Quit/Compile" to save your work into the "complete.csv" file. This process will delete
+        "database.csv" and place all work that still needs to be done into "to_code.csv." After the files have appeared or updated (this 
+        process takes a few seconds) close the program entirely before starting again.
